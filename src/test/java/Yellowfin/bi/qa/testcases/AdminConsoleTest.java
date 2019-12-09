@@ -44,7 +44,7 @@ public class AdminConsoleTest extends TestBase {
 		adminConsolePage.CreateUser(FName, LName, Email, userID, passwd, ConfrmPwsd);
 	}
 
-	@Test(enabled = true)
+	@Test(enabled = false)
 	public void Test2()
 
 	{
