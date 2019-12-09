@@ -1,0 +1,41 @@
+# this is the configuration file for yellow fin automation
+
+userName=admin@yellowfin.com.au
+password=test
+serverURL=http://localhost:8080
+
+
+#userName=admin@yellowfin.com.au
+#password=test
+#serverURL=http://10.10.1.46:7374/
+
+# login page
+
+userNameLocator=email
+passwordLocator=password
+submitLocator=logonButton
+
+# license warning
+
+clickToContinue=Click Here To Continue
+
+# Add Content Menu Button
+
+addContent=create-menu-container
+addContentDropMenu=yfDropMenu
+
+
+# select view popup after you click on create report
+selectView=//span[contains(text(),'Ski Team')]
+
+# From report builder page select all fields
+reportDataContainer=reportDataContainer
+
+
+
+# webservice details
+wsaddress=10.10.1.213
+wsport=7376
+wsserviceURL=
+numberOfUsersToCreate=2
+noOfClientOrg=2

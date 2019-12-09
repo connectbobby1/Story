@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name= "StoryTests">
+<parameter name="build_path" value="${build_path}"></parameter>
+  <suite-files>
+    <!-- suite-file path="CreateUsers.xml"-->
+    <suite-file path="HomePage.xml"/>
+    <suite-file path="ReportsPage.xml"/> 
+    <suite-file path="StoryPage.xml"/>
+    <!-- suite-file path="Admin.xml"-->
+  </suite-files>
+</suite>

@@ -1,0 +1,7 @@
+*.classpath
+*.class
+test-output/
+target/
+/bin/
+Default
+/war/

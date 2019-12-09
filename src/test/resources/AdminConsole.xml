@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Story" verbose="1" configfailurepolicy="continue">
+
+
+
+		
+	<!-- REPORT FIELDS -->
+	<!-- this is your report data set -->
+	<parameter name="RName" value="Invoice Summary" />
+	<parameter name="StoryTitle" value="My Story" />
+	<parameter name="Fold1" value="Tutorial" />
+	<parameter name="Fold2" value="Athletes" />
+	<parameter name="FName" value="Deepak" />
+	<parameter name="LName" value="Narayan" />
+	<parameter name="Email" value="Deepak.Narayan@yellowfin.bi" />
+	<parameter name="userID" value="Deepak" />
+	<parameter name="passwd" value="test" />
+	<parameter name="ConfrmPwsd" value="test" />
+	
+	<test name= "Story">
+		<classes>
+			<class name="Yellowfin.bi.qa.testcases.AdminConsoleTest">
+				<methods>
+
+					<include name="Test1"></include>
+				    <include name="Test2"></include>
+				    <include name="Test3"></include>			
+					<!-- <include name=""></include> -->
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

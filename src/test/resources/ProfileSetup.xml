@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Story" verbose="1" configfailurepolicy="continue">
+
+
+
+		
+	<!-- Parameters -->
+	
+	<parameter name="Title" value="My Story" />
+
+	
+	<test name= "Story">
+		<classes>
+			<class name="Yellowfin.bi.qa.testcases.ProfileSetupTest">
+				<methods>
+					<include name="ImportUsers"></include>
+					<include name="Test1"></include>
+					<include name="Test2"></include>
+					<include name="Test3"></include>
+				    <include name="Test4"></include>		
+				    <include name="Test5"></include>	
+				    <include name="Test6"></include>	
+				    <include name="Test7"></include>	
+				    <include name="Test8"></include>	
+							
+					<!-- <include name=""></include> -->
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

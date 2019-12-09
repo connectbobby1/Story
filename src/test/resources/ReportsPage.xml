@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Story" verbose="1" configfailurepolicy="continue">
+
+
+
+		
+	<!-- REPORT FIELDS -->
+	<!-- this is your report data set -->
+	<parameter name="RName" value="Invoice Summary" />
+	<parameter name="StoryTitle" value="My Story" />
+	<parameter name="SnapShotName" value="My Snapshot" />
+	<parameter name="Desc" value="Description" />
+	<parameter name="BookMarkName" value="My Bookmark" />
+	<parameter name="ReportName" value="Region Profit Summary" />
+	
+	
+	
+	<test name= "Story">
+		<classes>
+			<class name="Yellowfin.bi.qa.testcases.ReportsPageTest">
+				<methods>
+
+					<include name="Test1"></include>
+				    <include name="Test2"></include>
+				    <include name="Test3"></include>
+				    <include name="Test4"></include>
+				    <include name="Test5"></include>
+				    <include name="Test6"></include>
+				    <include name="Test7"></include>
+				    <include name="Test8"></include>
+				    <include name="Test9"></include>
+				    			
+					<!-- <include name=""></include> -->
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

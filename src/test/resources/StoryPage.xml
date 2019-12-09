@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Story" verbose="1" configfailurepolicy="continue">
+
+
+
+		
+	<!-- REPORT FIELDS -->
+	<!-- this is your report data set -->
+	<parameter name="Title" value="My Story" />
+	<parameter name="Title1" value="My Story1" />
+	<parameter name="Fold1" value="Tutorial" />
+	<parameter name="Fold2" value="Athletes" />
+	<parameter name="Fold1Test22" value="Audit Reports" />
+	<parameter name="Fold2Test22" value="Admin Reports" />
+	<parameter name="Fold1Test25" value="Audit Reports" />
+	<parameter name="Fold2Test25" value="Admin Reports" />
+	<parameter name="RName" value="Invoice Summary" />
+	
+	
+	<parameter name="VideoLink" value="https://www.youtube.com/watch?time_continue=4&amp;v=jaD92v4jMDs"/>
+	<parameter name="Data" value = "ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC "/>
+	
+	<test name= "Story">
+		<classes>
+			<class name="Yellowfin.bi.qa.testcases.StoryPageTest">
+				<methods>
+
+					<include name="Test1"></include>
+					<include name="Test2"></include>
+					<include name="Test3"></include>
+				    <include name="Test4"></include>		
+				    <include name="Test5"></include>	
+				    <include name="Test6"></include>	
+				    <include name="Test7"></include>	
+				    <include name="Test8"></include>	
+				    <include name="Test9"></include>
+				    <include name="Test10"></include>
+				    <include name="Test11"></include>			
+				    <include name="Test12"></include>
+				    <include name="Test13"></include>
+				    <include name="Test14"></include>	
+				    <include name="Test15"></include>	
+				    <include name="Test16"></include>	
+				    <include name="Test17"></include>	
+				    <include name="Test18"></include>	
+				    <include name="Test19"></include>	
+				    <include name="Test20"></include>	
+				    <include name="Test21"></include>	
+				    <include name="Test22"></include>	
+				    <include name="Test23"></include>	
+				    <include name="Test24"></include>
+				    <include name="Test25"></include>
+				    <include name="Test26"></include>	
+				    <include name="Test27"></include>
+				    <include name="Test28"></include>
+				    <include name="Test29"></include>
+				    <include name="Test30"></include>
+				    <include name="Test31"></include>
+				    <include name="Test32"></include>
+				    <include name="ImportUsers"></include>
+				    	
+					<!-- <include name=""></include> -->
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
