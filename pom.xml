@@ -187,7 +187,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0http://maven.apache.org/xsd
 <dependency>
 <groupId>commons-net</groupId>
 <artifactId>commons-net</artifactId>
-<version>3.3</version>
+<version>3.9.0</version>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
